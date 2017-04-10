@@ -154,3 +154,85 @@ body {
 #socialIcons a {
 	color: #FFFFFF;
 }
+
+/*==============================================
+		Responsive Design
+===============================================*/
+
+@media (max-width:600px) {
+	.item .fa{
+		font-size: 3em;
+}
+
+	.item h3 {
+	font-size: 15px;
+}
+
+	.item p {
+	font-size: 13px;
+}
+}
+
+@media (max-width:500px) {
+	.features {
+		height: 300px;
+	}
+	.header h1 {
+		font-size: 40px;
+	}
+
+	.header h2 {
+		font-size: 30px;
+		padding: 0 5px;
+	}
+
+	.item p {
+		display: none;
+	}
+	.footer p {
+		font-size: 14px;
+	}
+
+	#socialIcons a{
+		font-size: 20px;
+		margin: 20px;
+	}
+}
+
+@media (max-width: 455px) {
+	.navigation ul {
+		padding: 0px;
+		margin-top: 30px;
+	}
+
+	.navigation a {
+		margin: 0 10px;
+	}
+
+	.header h1 {
+		font-size: 35px;
+	}
+
+	.header h2 {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 360px) {
+	.navigation ul {
+		font-size: 12px;
+	}
+
+	.header h1 {
+		font-size: 30px;
+	}
+
+	.header h2 {
+		font-size: 18px;
+	}
+
+}
+
+
+
+
